@@ -34,7 +34,6 @@ export default class View {
 
   playAudio(url) {
     const audio = this.audioElement;
-    console.log(audio);
     audio.src = url;
     audio.muted = false;
     this.toggleAudioElement({ visible: true });
